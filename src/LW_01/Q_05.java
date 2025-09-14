@@ -5,18 +5,20 @@ public class Q_05{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter inner radius: ");
-        double ri = scanner.nextDouble();
-
-        System.out.print("Enter outer radius: ");
-        double ro = scanner.nextDouble();
-
         Circle innerCircle = new Circle();
         Circle outerCircle = new Circle();
 
+        System.out.println("Enter inner radius: ");
+        double ri = scanner.nextDouble();
+        innerCircle.setRadius(ri);
+
+        System.out.println("Enter outer radius: ");
+        double ro = scanner.nextDouble();
+        outerCircle.setRadius(ro);
+
         double shadedArea = outerCircle.computeArea() - innerCircle.computeArea();
 
-        System.out.printf("Shaded Area = %.2f\n", shadedArea);
+        System.out.println("Shaded Area: "+ shadedArea);
     }
 
     static class Circle {
