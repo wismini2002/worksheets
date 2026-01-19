@@ -11,7 +11,6 @@ public class Q_02 {
         temp2.setFahrenheit(sc.nextDouble());
 
         sc.close();
-
         System.out.println("Temperature in celsius : " + temp2.toCelsius());
     }
 }
