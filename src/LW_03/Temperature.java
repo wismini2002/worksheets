@@ -4,7 +4,7 @@ public class Temperature {
     private double celsius;
     private double fahrenheit;
 
-    public Temperature() {
+    public  Temperature() {
     }
 
     public Temperature(double celsius) {
