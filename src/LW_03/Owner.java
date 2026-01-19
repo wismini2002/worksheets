@@ -9,7 +9,7 @@ public class Owner {
         this.phoneNo = phoneNo;
     }
 
-    public Owner() {
+    public  Owner() {
     }
 
     public String getOwnerName() {

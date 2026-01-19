@@ -8,7 +8,7 @@ public class Bicycle {
         this.owner = owner;
     }
 
-    public Bicycle() {
+    public  Bicycle() {
     }
 
     public Owner getOwner() {
